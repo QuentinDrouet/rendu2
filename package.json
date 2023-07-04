@@ -1,0 +1,19 @@
+{
+  "name": "iim-quentin-opensource-rendu2",
+  "version": "1.0.0",
+  "description": "library that will collect data from festivals listed by the government",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "author": "Quentin Drouet",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "jest": "^29.5.0"
+  }
+}
