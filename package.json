@@ -1,6 +1,6 @@
 {
   "name": "iim-quentin-opensource-rendu2",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "library that will collect data from festivals listed by the government",
   "main": "index.js",
   "scripts": {
