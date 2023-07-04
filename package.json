@@ -4,8 +4,8 @@
   "description": "library that will collect data from festivals listed by the government",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "lint": "eslint"
+    "lint": "eslint .",
+    "test": "jest"
   },
   "author": "Quentin Drouet",
   "license": "MIT",
