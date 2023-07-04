@@ -7,8 +7,8 @@ describe('FestivalApi', () => {
         api = new FestivalApi();
     });
 
-    test('searchByCity returns data', async () => {
-        const results = await api.searchByCity('Marseille');
+    test('searchByRequest returns data', async () => {
+        const results = await api.searchByRequest('Marseille');
         expect(results).toBeDefined();
         expect(results.records).toBeInstanceOf(Array);
     });

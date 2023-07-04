@@ -11,9 +11,9 @@ class FestivalApi {
         return response.data;
     }
 
-    async searchByCity(city) {
+    async searchByRequest(request) {
         const options = {
-            q: city
+            q: request
         };
         return this.search(options);
     }
@@ -42,16 +42,12 @@ class FestivalApi {
         return this.search(options);
     }
 
-    async getAll() {
+    async getAll(numberOfRows = 10) {
         const options = {
-            rows: 10,
+            rows: numberOfRows,
             facet: ['region', 'domaine', 'complement_domaine', 'departement', 'mois_habituel_de_debut']
         };
         return this.search(options);
-    }
-
-    async customSearch(customOptions) {
-        return this.search(customOptions);
     }
 }
 
